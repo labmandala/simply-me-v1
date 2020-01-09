@@ -1,0 +1,101 @@
+/******* Bootstrap CSS General Styles for Simply Me template (minor revisions) ******/
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #eeeeee;
+}
+.bg-2 { 
+    background-color: #656566; /* Gray  */
+    color: #eeeeee;
+}
+.bg-3 { 
+    background-color: #eeeeee; /* White */
+    color: #555555;
+}
+.bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #eee;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #25707e !important;
+}
+
+  /********** Custom Styles **********/
+/*
+html {
+    font-family: 'Roboto', sans-serif;
+}
+*/
+footer a {
+    font-size: 45px;
+    color: #eee;
+}
+
+img {
+    border: 1px solid #2f2f2f;
+}
+
+.headline {
+    text-decoration: underline;
+}
+
+h4,
+i {
+    padding-bottom: 15px;
+}
+
+/***** Work Page *****/
+
+/* Table */
+
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+/*    position: static; */
+    width: 80%;
+}
+
+thead th {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+tr {
+    background: #555555;
+}
+
+th, td {
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.work {
+    font-weight: bold;
+}
+
+i {
+    color: #eee;
+    font-size: 3rem;
+}
